@@ -9,6 +9,8 @@ namespace ClassRefactorings.ExtractClass.Bad
         public string MiddleName { get; set; }
         public string LastName { get; set; }
         public DateTime DateOfBirth { get; set; }
+        public int Age { get;set;}
+        public string Nationality {get;set;}
         // other properties
 
         public string FullName()
